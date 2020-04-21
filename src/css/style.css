@@ -121,3 +121,62 @@ nav{
   font-weight: 400;
   text-transform: uppercase;
 }
+.profit {
+  min-height: 900px;
+  padding: 71px 0 65px 0;
+}
+.profit .profit_header_btn{
+  margin: 0 auto;
+  width: 112px;
+  height: 24px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 24px;
+  border-radius: 2px;
+}
+.profit .profit_title {
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+.profit .row {
+  margin: 40px 0;
+}
+.profit .row .col-md-6 {
+  padding: 0 43px 0 35px;
+}
+.profit .profit_item{
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  height: 25%;
+}
+.profit .profit_item .profit_item_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+.profit .profit_item .profit_item_descr {
+  padding-left: 26px;
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: justify;
+}
+.profit .profit_item .profit_item_descr span {
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
