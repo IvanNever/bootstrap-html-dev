@@ -63,6 +63,10 @@ nav
 		border-right: 2px dotted black
 		padding-right: 28px
 
+		&:last-child
+			border-right: none
+			padding-right: 0
+
 .subheader
 	position: absolute
 	top: 50px
@@ -291,3 +295,44 @@ nav
 		font-weight: 300
 		text-align: center
 		margin-top: 4px
+
+.require
+	padding: 68px 0 84px 0
+	&_block
+		margin: 33px
+		&_nmb
+			margin-bottom: 0
+	&_title
+		color: #1ca8c3
+		font-size: 22px
+		font-weight: 400
+	&_descr
+		color: #1ca8c3
+		font-weight: 300
+	&_list
+		list-style-type: none
+		padding-left: 50px
+		margin-top: 22px
+		li
+			position: relative
+			font-size: 17px
+			font-weight: 300
+			line-height: 24px
+			margin-bottom: 10px
+			&::before
+				content: ''
+				position: absolute
+				left: -32px
+				top: 3px
+				vertical-align: middle
+				width: 21px
+				height: 20px
+				background: url('../icons/check_blue.png') center (center/cover) no-repeat
+
+.warning
+	.require_title
+		color: $pink_color
+	.require_list
+		li
+			&::before
+				background: url('../icons/check_red.png') center (center/cover) no-repeat
