@@ -19,7 +19,7 @@ header
 		background-color: #212121
 		z-index: 2
 
-a
+a, a:hover
 	text-decoration: none
 	cursor: pointer
 
@@ -389,7 +389,7 @@ footer
 .footer_menu
 	display: flex
 	justify-content: center
-	li
+	li a
 		padding: 0 24px
 		color: #070716
 		font-size: 15px
@@ -399,7 +399,7 @@ footer
 .footer_submenu
 	display: flex
 	justify-content: center
-	li
+	li a
 		padding: 0 11px
 		color: #999999
 		font-size: 11px
@@ -410,6 +410,8 @@ footer
 	display: flex
 	justify-content: flex-end
 	height: 100%
+	&_item
+		margin-left: 6px
 
 .lang
 	display: block
@@ -420,4 +422,17 @@ footer
 	font-weight: 400
 	text-transform: uppercase
 
+.social
+	display: flex
+	&_item
+		display: flex
+		justify-content: center
+		align-items: center
+		margin-right: 15px
+		width: 32px
+		height: 32px
+		background-color: #070716
+		border-radius: 100%
+		i
+			color: #fff
 
