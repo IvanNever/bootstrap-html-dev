@@ -58,3 +58,58 @@
       margin: 10px 0
     &_link
       font-size: 20px
+  .hamburger
+    display: block
+    position: absolute
+    right: 10px
+    top: 50%
+    transform: translateY(-50%)
+    width: 26px
+    height: 15px
+    span
+      display: block
+      height: 2px
+      width: 100%
+      margin-bottom: 2px
+      background-color: #fff
+      transition: 0.5s all
+    &_active
+      span
+        margin-bottom: -2px
+        &:nth-child(1)
+          transform: translateX(3px) rotate(-45deg)
+        &:nth-child(2)
+          display: none
+        &:nth-child(3)
+          transform: translateX(3px) rotate(45deg)
+
+  .xs-hidden
+    display: none
+
+  .xs-visible
+    display: block
+
+  .subheader
+    &_tel
+      display: block
+      margin-top: 10px
+      color: #ffffff
+      font-size: 16px
+      font-weight: 400
+      text-transform: uppercase
+      text-align: center
+    &_btn
+      display: block
+      margin: 0 auto
+      margin-top: 10px
+      width: 200px
+      height: 40px
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+      color: #ffffff
+      font-size: 16px
+      font-weight: 400
+      text-transform: uppercase
+  .promo
+    &_header
+      line-height: 45px
+
